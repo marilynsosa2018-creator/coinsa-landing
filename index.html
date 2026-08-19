@@ -48,6 +48,7 @@
         <ul class="nav-list">
           <li><a href="#inicio" class="nav-link active">Inicio</a></li>
           <li><a href="#servicios" class="nav-link">Servicios</a></li>
+          <li><a href="#operaciones" class="nav-link">Galería</a></li>
           <li><a href="#contacto" class="nav-link">Contacto</a></li>
         </ul>
         <!-- CTA inside mobile navigation and visible in desktop header -->
@@ -63,7 +64,6 @@
   <main>
     <!-- Hero Section -->
     <section id="inicio" class="hero-section">
-      <!-- Decorative background (baja opacidad, managed by CSS) -->
       <div class="hero-bg-decoration"></div>
 
       <div class="container hero-container">
@@ -85,11 +85,8 @@
         </div>
 
         <div class="hero-media animate-fade-in">
-          <!-- ESPACIO RESERVADO PARA FOTOGRAFÍA: Operaciones de COINSA -->
-          <div class="image-placeholder hero-placeholder" aria-label="Foto general de operaciones de COINSA - pendiente de reemplazo">
-            <div class="placeholder-icon">⚓</div>
-            <div class="placeholder-text">Foto de Operaciones — Pendiente de reemplazo</div>
-            <div class="placeholder-size">Medida recomendada: 1600x900px o proporción 16:9</div>
+          <div class="photo-card-wrapper">
+            <img src="assets/img/predio1.png" alt="Operaciones COINSA" class="featured-img hero-img">
           </div>
         </div>
       </div>
@@ -109,7 +106,6 @@
           <!-- Servicio 1: Construcción de Carreteras -->
           <div class="service-card">
             <!-- PLACEHOLDER PARA FOTOGRAFÍA DE CARRETERAS -->
-            <!-- El cliente podrá reemplazar esta imagen simplemente modificando el 'src' -->
             <div class="image-placeholder service-card-media" aria-label="Foto de construcción de carreteras - pendiente">
               <div class="placeholder-icon">🚧</div>
               <div class="placeholder-text">Foto de Carreteras - Pendiente</div>
@@ -129,11 +125,8 @@
 
           <!-- Servicio 2: Construcción de Torres de Telefonía -->
           <div class="service-card">
-            <!-- PLACEHOLDER PARA FOTOGRAFÍA DE TORRES DE TELEFONÍA -->
-            <div class="image-placeholder service-card-media" aria-label="Foto de construcción de torres de telefonía - pendiente">
-              <div class="placeholder-icon">📶</div>
-              <div class="placeholder-text">Foto de Torres - Pendiente</div>
-              <div class="placeholder-size">Recomendado: 800x500px</div>
+            <div class="service-card-media-wrap">
+              <img src="assets/img/torre1.png" alt="Torres de Telefonía COINSA" class="service-card-img">
             </div>
 
             <div class="service-card-content">
@@ -149,11 +142,8 @@
 
           <!-- Servicio 3: Almacenaje de Contenedores -->
           <div class="service-card">
-            <!-- PLACEHOLDER PARA FOTOGRAFÍA DE ALMACENAJE DE CONTENEDORES -->
-            <div class="image-placeholder service-card-media" aria-label="Foto de almacenaje de contenedores - pendiente">
-              <div class="placeholder-icon">🚢</div>
-              <div class="placeholder-text">Foto de Contenedores - Pendiente</div>
-              <div class="placeholder-size">Recomendado: 800x500px</div>
+            <div class="service-card-media-wrap">
+              <img src="assets/img/predio2.png" alt="Almacenaje de Contenedores COINSA" class="service-card-img">
             </div>
 
             <div class="service-card-content">
@@ -166,6 +156,51 @@
               </p>
             </div>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3.5 Sección "Foto de Operaciones" -->
+    <section id="operaciones" class="photo-section scroll-animate">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle">Instalaciones y Predios</span>
+          <h2 class="section-title">Foto de Operaciones</h2>
+          <div class="section-divider"></div>
+          <p class="section-intro">Fotografía real de las operaciones y predios de COINSA, reflejando solidez, capacidad técnica y espacio logístico.</p>
+        </div>
+        <div class="photo-display-container">
+          <img src="assets/img/predio1.png" alt="Foto de Operaciones COINSA - Predio 1" class="full-width-photo">
+        </div>
+      </div>
+    </section>
+
+    <!-- 3.6 Sección "Foto de Torres" -->
+    <section id="torres" class="photo-section bg-alt scroll-animate">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle">Telecomunicaciones</span>
+          <h2 class="section-title">Foto de Torres</h2>
+          <div class="section-divider"></div>
+          <p class="section-intro">Fotografía real del montaje y construcción de torres de telecomunicaciones desarrolladas por COINSA.</p>
+        </div>
+        <div class="photo-display-container">
+          <img src="assets/img/torre1.png" alt="Foto de Torres de Telefonía COINSA" class="full-width-photo">
+        </div>
+      </div>
+    </section>
+
+    <!-- 3.7 Sección "Foto de Contenedores" -->
+    <section id="contenedores" class="photo-section scroll-animate">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle">Recinto Portuario</span>
+          <h2 class="section-title">Foto de Contenedores</h2>
+          <div class="section-divider"></div>
+          <p class="section-intro">Fotografía real del resguardo y almacenaje de contenedores dentro del recinto de la Empresa Portuaria Quetzal.</p>
+        </div>
+        <div class="photo-display-container">
+          <img src="assets/img/predio2.png" alt="Foto de Contenedores COINSA - Recinto Portuario EPQ" class="full-width-photo">
         </div>
       </div>
     </section>
@@ -242,6 +277,9 @@
           <ul class="footer-links">
             <li><a href="#inicio">Inicio</a></li>
             <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#operaciones">Foto de Operaciones</a></li>
+            <li><a href="#torres">Foto de Torres</a></li>
+            <li><a href="#contenedores">Foto de Contenedores</a></li>
             <li><a href="#contacto">Contacto</a></li>
           </ul>
         </div>
